@@ -15,10 +15,10 @@ pipeline {
             steps {
                 echo 'Checking out code from repository...'
                 checkout([$class: 'GitSCM',
-                          branches: [[name: '*/main']],  // Replace 'main' with your branch name if different
+                          branches: [[name: '*/main']],
                           userRemoteConfigs: [[
-                              url: 'https://github.com/your-username/your-repo.git', // Replace with your Git repo URL
-                              credentialsId: 'your-credentials-id' // Replace with your Jenkins credentials ID
+                              url: 'https://github.com/sudochelsea/FIDO.git', // Replace with your Git repo URL
+
                           ]]])
             }
         }
