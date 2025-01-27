@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589a1f23-390a-4c36-a849-d5442c91c070" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/AuthenticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/VideoGamesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/VideoGamesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2rwzR22NFoV3CPXMh4OWHX9qxB2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,42 +41,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "onboarding.tips.debug.path": "/Users/chel/Documents/restassured/FIDO/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.VideoGamesTests">
-    <configuration name="AuthenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FIDO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AuthenticationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VideoGamesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FIDO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.VideoGamesTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VideoGamesTests.testGetAllVideoGames">
     <configuration name="VideoGamesTests.testCreateVideoGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FIDO" />
       <extension name="coverage">
@@ -126,13 +95,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoGamesTests.testGetAllVideoGamesReturnsCreatedGameNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FIDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.VideoGamesTests" />
+      <option name="METHOD_NAME" value="testGetAllVideoGamesReturnsCreatedGameNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoGamesTests.testUpdateVideoGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FIDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.VideoGamesTests" />
+      <option name="METHOD_NAME" value="testUpdateVideoGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VideoGamesTests" />
-        <item itemvalue="JUnit.AuthenticationTest" />
-        <item itemvalue="JUnit.VideoGamesTests.testCreateVideoGame" />
-        <item itemvalue="JUnit.VideoGamesTests.testDeleteVideoGame" />
         <item itemvalue="JUnit.VideoGamesTests.testGetAllVideoGames" />
+        <item itemvalue="JUnit.VideoGamesTests.testUpdateVideoGame" />
+        <item itemvalue="JUnit.VideoGamesTests.testGetAllVideoGamesReturnsCreatedGameNames" />
+        <item itemvalue="JUnit.VideoGamesTests.testDeleteVideoGame" />
+        <item itemvalue="JUnit.VideoGamesTests.testCreateVideoGame" />
       </list>
     </recent_temporary>
   </component>

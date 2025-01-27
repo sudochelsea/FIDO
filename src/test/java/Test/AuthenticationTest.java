@@ -1,6 +1,7 @@
 package Test;
 
 import Base.BaseTests;
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
@@ -10,6 +11,7 @@ public class AuthenticationTest extends BaseTests {
 
 
     @Test
+    @Description ("Verify that the Authentication is Valid" )
     public void authenticate() {
         // Hardcoded JSON payload with admin credentials
         String payload = "{\n" +

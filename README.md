@@ -62,7 +62,7 @@
                 checkout([$class: 'GitSCM',
                           branches: [[name: '*/main']],
                           userRemoteConfigs: [[
-                              url: 'https://github.com/sudochelsea/FIDO.git', // Replace with your Git repo URL
+                              url: 'https://github.com/sudochelsea/FIDO.git'
 
                           ]]])
             }
