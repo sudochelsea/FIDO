@@ -19,29 +19,29 @@
 
 1. Clone the Repository into the directory of your choice
 
-   $ git clone https://github.com/sudochelsea/FIDO.git
+   `$ git clone https://github.com/sudochelsea/FIDO.git`
 
 2.  Move into project folder
-    $ cd Fido-test
+    `$ cd Fido-test`
 
 3.  Install Dependencies
-    $ mvn clean install
+    `$ mvn clean install`
 
 # Running Tests
 
 1. Execute All Tests 
-   $ mvn test
+ `  $ mvn test`
 
 2. Execute Specific Test Classes
-   $ mvn -Dtest=AuthenticationTests test
+   `$ mvn -Dtest=AuthenticationTests test`
 
 # Viewing Reports
 
 1. Run Tests
-   $ mvn test
+  ` $ mvn test`
 
 2. Serve the Allure Report
-    $ allure serve allure-results
+  `  $ allure serve allure-results`
 
 # Continuous Integration (CI) With Jenkins 
 
